@@ -1,15 +1,15 @@
-BluetoothPrint Integration Guide
+**BluetoothPrint Integration Guide**
 Introduction
 The BluetoothPrint app allows you to print text, images, barcodes, and QR codes by sending a request from your Swift application. This guide explains how to use the provided Swift code to structure and pass data to the BluetoothPrint app.
 
-Print Entry Types
-Text Entry:
+**Print Entry Types**
+**Text Entry:**
+**Type:** 0
+**Content:** Any string
+**Bold:** 0 if no, 1 if yes
+**Align:** 0 if left, 1 if center, 2 if right
+**Format:** 0 if normal, 1 if double Height, 2 if double Height + Width, 3 if double Width, 4 if small
 
-Type: 0
-Content: Any string
-Bold: 0 if no, 1 if yes
-Align: 0 if left, 1 if center, 2 if right
-Format: 0 if normal, 1 if double Height, 2 if double Height + Width, 3 if double Width, 4 if small
 Image Entry:
 
 Type: 1
